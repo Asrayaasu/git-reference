@@ -1,0 +1,40 @@
+CONFIGURATION
+-------------
+git config --global user.name "Asraya"
+git config --global user.email "Mail id"
+
+
+
+CREATING REPOSITORY
+------------------
+
+git init		-> Initialize a new git repository
+
+git clone url		-> clones an existing repository from a remote url
+
+
+HOW TO ADD FILES TO OUR GIT REPOSITORY
+-------------------------------------
+
+right click on the directory free space and press git bash here or open terminal
+
+step-1  git init
+step-2  in github-> new-> repo-name-> create Repository
+step-3  git add . (add all the files to current repository)
+step-4  git commit -m "commit_message.."
+step-5  git remote add origin url
+step-6  git push -u origin branch_name
+----------------------
+
+
+
+BRANCHING
+
+git branch branch_name
+git checkout -b branch_name     connecting to branch
+git merge branch_name            merge to main branch
+--------------------------------------------
+
+PULL
+
+git pull origin branch_name
